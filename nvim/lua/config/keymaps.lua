@@ -8,9 +8,9 @@ vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]], {
     desc = "Delete without yanking",
 })
 
-vim.keymap.set("i", "<D-c>", "<Esc>")
+vim.keymap.set("i", "<M-c>", "<Esc>")
 
-vim.keymap.set("n", "<D-c>", ":nohl<CR>", {
+vim.keymap.set("n", "<M-c>", ":nohl<CR>", {
     desc = "Clear search highlighting",
     silent = true,
 })
